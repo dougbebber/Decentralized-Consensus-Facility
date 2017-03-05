@@ -1,0 +1,11 @@
+Borrow Offer data structure (version 0.01)
+05 March 2017
+Author: Douglas Bebber
+
+BorrowerPublicKey (string): the borrowers public key for the 2-of-3 multisignature transaction used to manage loan collateral.
+BorrowedAssetID (Integer): Cryptocurrency to be borrowed - example XMR, ETH, LSK, etc.
+BorrowedAssetQty (Decimal): Quantity of cryptocurrency to be borrowed.
+DailyInterestRate (Decimal): The daily interest rate for the loan.
+LoanDuration (Integer): Duration of loan in days.
+PrincipalPaymentAddress (String): The address that the borrower receives the loan principal.
+CollateralReturnAddress (String): Bitcoin address where collateral will be returned.
