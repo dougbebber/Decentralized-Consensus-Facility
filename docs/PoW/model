@@ -1,0 +1,7 @@
+Our proof-of-work approach for our decentralized consensus facility is similar in approach to what is described in this document:
+https://eprint.iacr.org/2011/553.pdf
+
+Ourtime-lock puzzle involves a defined lending workflow model, a Merkle DAG data structure for sequential workflow execution evidence,
+and a publically verifiable proof of sequential work algoirthm.
+
+The document describing our PoW algorithm is currently being drafted and will be uploaded once the draft has been completed and reviewed.
