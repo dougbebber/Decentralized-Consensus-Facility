@@ -1,4 +1,5 @@
 ** Decentralized Lending of Cryptocurrency Data Structures
+** Version 0.01
 ** by Doug Bebber 07 March 2017.
 **This is a logical data model that is not specifically written for any physical implementation. A JSON description of the data
 ** model will be added soon.
