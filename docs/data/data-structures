@@ -31,3 +31,4 @@ LendOffer (String) Hash link to matched lend offer.
 LoanAssetID (Integer): Cryptocurrency borrowed - example XMR, ETH, LSK, etc.
 LoanAssetQty (Decimal): Quantity of cryptocurrency to be borrowed.
 DailyInterestRate (Decimal): The daily interest rate for the loan.
+
