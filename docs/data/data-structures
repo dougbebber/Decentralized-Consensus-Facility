@@ -1,3 +1,8 @@
+** Decentralized Lending of Cryptocurrency Data Structures
+** by Doug Bebber 07 March 2017.
+**This is a logical data model that is not specifically written for any physical implementation. A JSON description of the data
+** model will be added soon.
+
 BORROW OFFER:
 
 BorrowerPublicKey (string): the borrowers public key for the 2-of-3 multisignature transaction used to manage loan collateral.
@@ -18,3 +23,11 @@ LoanDuration (Integer): Duration of loan in days.
 CollateralForfeitAddress (String): Bitcoin address where lender receives forfeitted collateral.
 LoanRepaymentAddress (String): Address where loan repayment (principal + interest) is received.
 PrincipalSourceAddress (String): Source address where loan principal will be sent from.
+
+LENDING CONTRACT:
+
+BorrowerOffer (String) Hash link to matched borrow offer.
+LendOffer (String) Hash link to matched lend offer.
+LoanAssetID (Integer): Cryptocurrency borrowed - example XMR, ETH, LSK, etc.
+LoanAssetQty (Decimal): Quantity of cryptocurrency to be borrowed.
+DailyInterestRate (Decimal): The daily interest rate for the loan.
